@@ -1,10 +1,37 @@
+:root{
+    --base : #ffc600;
+    --spacing : 10px;
+    --blur : 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+h1{
+    color: var(--base);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Below css as nothing to do with JS change */
+
 body{
     background: #aabb;
     text-align: center;
 }
 
 h1{
-    color: white;
     font-size: 70px;
 }
 
